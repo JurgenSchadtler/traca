@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    color: #005993;
+    font-family: 'Roboto', sans-serif;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+/* Reusable clasess */
+/*=============== REUSABLE CSS CLASSES ===============*/
+.header{
+    width: 100%;
+    background:white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor {
+    max-width: 1024px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+  
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+  
+.section {
+    padding: 4.5rem 0 2rem;
+}
+  
+.section__title {
+    position: relative;
+    font-size: var(--h1-font-size);
+    padding-left: 1.25rem;
+    margin-bottom: 2.5rem;
+}
+  
+.section__title::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 3px;
+    height: 20px;
+    background-color: var(--first-color);
+}
+
+.nav-link{
+    color: inherit;
+}
+
+
+/* Home */
+.home{
+    gap: 0;
+  }
+  
+  .home__container{
+    padding: 7rem 0 2.5rem;
+    /* background: linear-gradient(160deg, hsla(206,5%,24%,1)-4%, hsla(206,12%,12%,1)46%
+    ); */
+    background-image: url(../assets/home-bg.jpg);
+      /* background-attachment: fixed; */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 70vh;
+      width: 100%;
+  }
+  
+.logo-home{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+}
+
+.home-button{
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+    padding: 1rem 1.75rem;
+    border-radius: .25rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 90px;
+    margin-right: 50px;
+}
+
+.slogan{
+    color: #fff;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+/* Units */
+.units{
+    gap: 0;
+}
+    
+.title{
+    color: #ca070f;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    top: -1rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 67px;
+    height: 1px;
+    background-color: #ca070f;
+}
+
+.specialty__category{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 200px;
+    justify-content: center;
+    row-gap: 2.5rem;
+}
+  
+.specialty__img{
+    width: 70px;
+    margin-bottom: 1rem;
+    transition: .4s;
+}
+  
+.specialty__group{
+    text-align: center;
+}
+  
+.specialty__title{
+    font-size: 1.5rem;
+    margin-bottom: .25rem;
+}
+  
+.specialty__group:hover .specialty__img{
+    transform: translateY(-.25rem);
+  
+}
+
+.units-featured{
+    margin-bottom: 50px;
+}
+
+/* Services */
+.services{
+    background-color: rgb(228, 228, 228);
+}
+
+
+.navbar{
+    color: #005993;
+    box-shadow: 0 8px 6px -6px rgb(39 39 39 / 15%);
+}
