@@ -181,6 +181,17 @@ button {
     background-color: rgb(228, 228, 228);
 }
 
+/* About Us */
+.img-fluid{
+    margin-left: 1.5rem;
+  
+}
+
+.about__text{
+    color: #ca070f;
+
+}
+
 
 .navbar{
     color: #005993;
