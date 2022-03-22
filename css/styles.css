@@ -147,7 +147,7 @@ button {
 .specialty__category{
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: 200px;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     row-gap: 2.5rem;
 }
@@ -163,8 +163,10 @@ button {
 }
   
 .specialty__title{
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: .25rem;
+    padding-left: 15px;
+    padding-right: 15px;
 }
   
 .specialty__group:hover .specialty__img{
@@ -182,7 +184,7 @@ button {
 }
 
 /* About Us */
-.img-fluid{
+.world-map{
     margin-left: 1.5rem;
   
 }
@@ -191,6 +193,29 @@ button {
     color: #ca070f;
 
 }
+
+.about__category{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    row-gap: 2.5rem;
+}
+
+.about-number{
+    color: #ca070f;
+}
+
+
+/*   */
+.parall{
+    background-color: rgb(228, 228, 228);
+} 
+
+.accordion{
+    margin-bottom: 3rem;
+}
+
 
 
 .navbar{
