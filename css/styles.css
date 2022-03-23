@@ -59,7 +59,7 @@ button {
 .vertical-center {
     margin: 0;
     position: relative;
-    top: 33%;
+    top: 25%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
