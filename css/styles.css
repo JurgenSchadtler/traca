@@ -59,7 +59,7 @@ button {
 .vertical-center {
     margin: 0;
     position: relative;
-    top: 50%;
+    top: 33%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
@@ -89,27 +89,17 @@ button {
       min-height: 100vh;
       width: 100%;
 }
-  
-.logo-home{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -20px;
-}
 
-.home-button{
-    display: inline-block;
-    background-color: red;
-    color: #fff;
-    padding: 1rem 1.75rem;
-    border-radius: .25rem;
-    font-size: 1rem;
+.home-title{
+    text-align: center;
     text-transform: uppercase;
-    text-decoration: none;
-    margin-left: 90px;
-    margin-right: 50px;
+    font-weight: bold;
 }
 
+.home-subtitle{
+    text-align: center;
+}
+  
 .slogan{
     color: #fff;
     text-align: center;
@@ -251,4 +241,8 @@ button {
 .Custom_Button:hover{
     background-color: #cccccc;
     border-color: #cccccc;
+}
+
+.contact-row{
+    margin-top: 5%;
 }
