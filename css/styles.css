@@ -56,6 +56,21 @@ button {
     color: inherit;
 }
 
+.vertical-center {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.horizontal-center {
+    margin: 0;
+    position: relative;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
 
 /* Home */
 .home{
@@ -204,4 +219,34 @@ button {
 .navbar{
     color: #005993;
     box-shadow: 0 8px 6px -6px rgb(39 39 39 / 15%);
+}
+
+.card{
+    background-color: rgba(0, 0, 0, 0.4);
+    
+}
+
+.card-title{
+    color: white;
+    text-align: center;
+}
+
+.card-item{
+    padding-top: 5%;
+}
+
+.card-body{
+    padding: 2.5rem;
+}
+
+.Custom_Button{
+    width: 100%;
+    border-radius: 0%;
+    background-color: #eb1424;
+    height: 4rem;
+}
+
+.Custom_Button:hover{
+    background-color: #cccccc;
+    border-color: #cccccc;
 }
