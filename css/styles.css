@@ -220,12 +220,11 @@ button {
     box-shadow: 0 8px 6px -6px rgb(39 39 39 / 15%);
 }
 
-.card{
+.c{
     background-color: rgba(0, 0, 0, 0.4);
-    
 }
 
-.card-title{
+.ct{
     color: white;
     text-align: center;
 }
@@ -234,7 +233,7 @@ button {
     padding-top: 5%;
 }
 
-.card-body{
+.cb{
     padding: 2.5rem;
 }
 
