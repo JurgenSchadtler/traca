@@ -248,6 +248,49 @@ button {
 }
 
 /* Media queries */
+@media screen and (min-width: 576px) {
+    .contenedor{
+        max-width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .specialty__img{
+        width: 100px;
+    }
+
+    .title::before{
+        margin: 3rem auto;
+    }
+
+    .specialty__category{
+        grid-template-columns: repeat(2, 250px);
+    }
+
+    .card{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        
+    }
+
+    .about__text{
+        margin-top: 3rem;
+        text-align: left;
+    }
+
+    .world-map{
+        z-index: 1;
+        
+    }
+}
+
+@media screen and (min-width: 767px) {
+    
+}
+
+@media screen and (min-width: 1040px){
+
+}
+
 
 @media screen and (min-width: 1200px){
     .contenedor{
