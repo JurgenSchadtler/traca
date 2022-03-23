@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="type" content="website">
         <meta name="title" content="Traca Logistica">
-        <meta name="description" content="La logistica tiene un nuevo significado">
+        <meta name="description" content="La logistica tiene un nuevo significaso">
         <!--=============== FAVICON ===============-->
         <link rel="shortcut icon" href="" type="image/x-icon">
         <!--=============== Bootstrap ===============-->
@@ -18,6 +18,11 @@
         <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="./css/styles.css">
+        <!--=============== Swiper ===============-->
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/swiper/swiper-bundle.min.css"
+        />
         <title>Traca Logistica</title>
     </head>
     <body>
@@ -70,8 +75,8 @@
             <div class="row vertical-center contact-row">
 
               <div class="col"></div>
-              <div class="col-md-3 col-10">
-                <div class="card c"">
+              <div class="col-xl-4 col-md-6 col-10">
+                <div class="card c">
                   <div class="card-body cb">
                     <h4 class="card-title ct">Ponte en contacto con nosotros</h4>
                     <div class="card-item">
@@ -121,47 +126,58 @@
         </section>
 
         <!--==================== SERVICES ====================-->
+        
         <section class="services grid" id="services">
-            <div class="services__container" id="services">
-                <div class="services__content contenedor">
-                    <h2 class="title">Nuestros Servicios</h2>
-
-                    <div class="card-group">
-                      <div class="card">
-                        <img src="./assets/nigel-tadyanehondo-GOD2mDNujuU-unsplash.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Servicio 1</h5>
-                          <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                          
-                        </div>
-                      </div>
-                      <div class="card">
-                        <img src="./assets/han-chenxu-20qcctvyR1Q-unsplash.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Servicio 2</h5>
-                          <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                          
-                        </div>
-                      </div>
-                      <div class="card">
-                        <img src="./assets/han-chenxu-20qcctvyR1Q-unsplash.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Servicio 3</h5>
-                          <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                          
-                        </div>
-                      </div>
-                      <div class="card">
-                        <img src="./assets/han-chenxu-20qcctvyR1Q-unsplash.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Servicio 4</h5>
-                          <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                          
-                        </div>
-                      </div>
-                    </div>
+          <!--==================== SWIPER ====================-->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <!--==================== Slides ====================-->
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="./assets/nigel-tadyanehondo-GOD2mDNujuU-unsplash.jpg" class="img-fluid swiper-img" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Servicio 1</h5>
+                    <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
                 </div>
+              </div>
+              
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="./assets/nigel-tadyanehondo-GOD2mDNujuU-unsplash.jpg" class="img-fluid swiper-img" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Servicio 1</h5>
+                    <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="./assets/han-chenxu-20qcctvyR1Q-unsplash.jpg" class="img-fluid swiper-img" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Servicio 1</h5>
+                    <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="./assets/han-chenxu-20qcctvyR1Q-unsplash.jpg" class="img-fluid swiper-img" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Servicio 1</h5>
+                    <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
+                </div>
+              </div>
             </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+
         </section>
 
 
@@ -169,56 +185,68 @@
         <!--==================== ABOUT US ====================-->
       <section class="about-us grid" id="about">
           <div class="about__container" id="about">
-              <div class="about__content contenedor">
-                  <h2 class="title">¿Quienes somos?</h2>
-
-                  <p class="about__text">Transportes Traca surge en el 2000 como una pequeña empresa familiar 
-                    con el objetivo de satisfacer las crecientes necesidades de transporte nacional dedicado. <br> <br>Buscamos ser reconocidos a nivel nacional como la mejor solución a sus necesidades en traslados de mercancías vía terrestre, trascendiendo por el excelente servicio , puntualidad y precios justos.</p>
-
-                    <div class="units-featured">
-                      <div class="about__category">
-                          <div class="specialty__group specialty__line">
-                            <h2 class="about-number">+20</h2>
-                            <h3 class="specialty__title">Años de experiencia</h3>
+            <div class="row">
+              <div class="col"></div>
+              <div class="col-lg-4 col-md-8 col-12">
+                <h2 class="title">¿Quienes somos?</h2>
+                <p class="about__text">Transportes Traca surge en el 2000 como una pequeña empresa familiar 
+                  con el objetivo de satisfacer las crecientes necesidades de transporte nacional dedicado. <br> <br>Buscamos ser reconocidos a nivel nacional como la mejor solución a sus necesidades en traslados de mercancías vía terrestre, trascendiendo por el excelente servicio , puntualidad y precios justos.
+                </p>
+                <div class="units-featured">
+                  <div class="about__category">
+                    <div class="specialty__group specialty__line">
+                      <h2 class="about-number">+20</h2>
+                      <h3 class="specialty__title">Años de experiencia</h3>
+                            
+                    </div>
+                    <div class="specialty__group specialty__line">
+                      <h2 class="about-number">+7</h2>
+                      <h3 class="specialty__title">Unidades Disponibles</h3>
+                                          
+                    </div>
+                    <div class="specialty__group">
+                      <div class="value about-number" akhi="800000" id="Count_Number">0</div>
+                      <h3 class="specialty__title">Kilometros Recorridos</h3>
                                   
-                          </div>
-                          <div class="specialty__group specialty__line">
-                            <h2 class="about-number">+7</h2>
-                            <h3 class="specialty__title">Unidades Disponibles</h3>
-                                               
-                          </div>
-                          <div class="specialty__group">
-                            <h2 class="about-number">800,000</h2>
-                            <h3 class="specialty__title">Kilometros Recorridos</h3>
-                                        
-                          </div>
+                    </div>
 
-                          <div class="specialty__group">
-                            <h2 class="about-number">500</h2>
-                            <h3 class="specialty__title">Personas Capacitadas</h3> 
-                          </div>
-                      </div>       
+                    <div class="specialty__group">
+                      <div class="value about-number" akhi="500">0</div>
+                      <h3 class="specialty__title">Personas Capacitadas</h3> 
+                    </div>
                   </div>
-
-                  <img src="./assets/worldmap.png" class="world-map img-fluid" alt="">
-
-                  
+                </div>   
               </div>
+              <div class="col-lg-0 col"></div>
+              <div class="col-lg-6 col-12">
+                <img src="./assets/worldmap.png" class="world-map img-fluid" alt="">
+              </div>
+
+            </div>
+
+
           </div>
       </section>
 
 
         <!--==================== PARALLAX ====================-->
         <section class="parall grid" id="parall">
+          <div class="parallax parallax__container">
+            <h2 class="title">Lorem ipsun</h2>
+            <h4 class="parallax-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+            </p>
+          </div>
+
           <div class="parall__container" id="parall">
               <div class="parall__content contenedor">
                 <h2 class="title">¿Por qué Traca?</h2>
+                
 
   
                 <div class="accordion">
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         Confianza
                       </button>
                     </h2>
@@ -272,6 +300,8 @@
  
          <!--=============== MAIN JS ===============-->
          <script src="./js/main.js"></script>
-
+         <!--=============== Swiper ===============-->
+         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+         <script src="./js/swiper-bundle.min.js"></script>
     </body>
 </html>

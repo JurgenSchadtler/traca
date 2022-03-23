@@ -181,7 +181,8 @@ button {
 
 .about__text{
     color: #ca070f;
-
+    padding: 0 5% 0 5%;
+    text-align: justify;
 }
 
 .about__category{
@@ -325,4 +326,65 @@ button {
         z-index: 1;
         
     }
+}
+
+/* Swiper */
+.swiper {
+    width: 80%;
+}
+
+.swiper-img{
+    object-fit: cover;
+    max-height: 400px;
+}
+
+.swiper-slide
+{
+    padding-bottom: 5%;
+}
+
+/* Counter */
+*{
+    padding:0;
+    margin:0;
+  }
+  .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+      background: #030303;
+    height: 100vh;
+  }
+  
+  .value {
+    font-size: 2em;
+    display: block;
+    color: #ca070f;
+  }
+
+  /* parallax */
+.parallax {
+background-image: url("../assets/jay-huang-aeouwx28n6M-unsplash.jpg");
+
+min-height: 400px; 
+
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+@media only screen and (max-device-width: 1000px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+.parallax-subtitle{
+    text-align: center;
+    color: #ca070f;
+}
+
+.parallax__container{
+    padding-top: 2%;
 }
