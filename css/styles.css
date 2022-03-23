@@ -52,23 +52,6 @@ button {
     padding: 4.5rem 0 2rem;
 }
   
-.section__title {
-    position: relative;
-    font-size: var(--h1-font-size);
-    padding-left: 1.25rem;
-    margin-bottom: 2.5rem;
-}
-  
-.section__title::before {
-    content: '';
-    position: absolute;
-    top: 8px;
-    left: 0;
-    width: 3px;
-    height: 20px;
-    background-color: var(--first-color);
-}
-
 .nav-link{
     color: inherit;
 }
@@ -79,7 +62,7 @@ button {
     gap: 0;
   }
   
-  .home__container{
+.home__container{
     padding: 7rem 0 2.5rem;
     /* background: linear-gradient(160deg, hsla(206,5%,24%,1)-4%, hsla(206,12%,12%,1)46%
     ); */
@@ -90,7 +73,7 @@ button {
       background-size: cover;
       min-height: 100vh;
       width: 100%;
-  }
+}
   
 .logo-home{
     width: 100%;
@@ -132,15 +115,14 @@ button {
     margin-bottom: 2rem;
 }
 
-.title::before {
+.title::before{
     content: '';
     position: absolute;
-    top: -1rem;
     left: 0;
     right: 0;
-    margin: 0 auto;
+    margin: 2rem auto;
     width: 67px;
-    height: 1px;
+    height: 2px;
     background-color: #ca070f;
 }
 
