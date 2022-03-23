@@ -118,6 +118,8 @@ button {
     text-transform: uppercase;
 }
 
+
+
 /* Units */
 .units{
     gap: 0;
@@ -221,21 +223,21 @@ button {
     box-shadow: 0 8px 6px -6px rgb(39 39 39 / 15%);
 }
 
-.card{
-    background-color: rgba(0, 0, 0, 0.4);
-    
-}
-
-.card-title{
-    color: white;
-    text-align: center;
-}
 
 .card-item{
     padding-top: 5%;
 }
 
-.card-body{
+.c{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.ct{
+    color: white;
+    text-align: center;
+}
+
+.cb{
     padding: 2.5rem;
 }
 
