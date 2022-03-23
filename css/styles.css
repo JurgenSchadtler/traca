@@ -246,3 +246,40 @@ button {
 .contact-row{
     margin-top: 5%;
 }
+
+/* Media queries */
+
+@media screen and (min-width: 1200px){
+    .contenedor{
+        max-width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .specialty__img{
+        width: 150px;
+    }
+
+    .title::before{
+        margin: 3rem auto;
+    }
+
+    .specialty__category{
+        grid-template-columns: repeat(4, 250px);
+    }
+
+    .card{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        
+    }
+
+    .about__text{
+        margin-top: 3rem;
+        text-align: left;
+    }
+
+    .world-map{
+        z-index: 1;
+        
+    }
+}
