@@ -406,7 +406,7 @@ button {
 
 /* Swiper */
 .swiper {
-    width: 80%;
+    width: 90%;
 }
 
 .swiper-img{
@@ -417,6 +417,27 @@ button {
 .swiper-slide
 {
     padding-bottom: 5%;
+}
+
+@media screen and (max-device-width: 1000px){
+    .swiper-button-next
+    {
+        visibility: hidden;
+    }
+
+    .swiper-button-prev
+    {
+        visibility: hidden;
+    }
+}
+.swiper-wrapper{
+    
+    width: 90%;
+}
+
+.swiper-card{
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /* Counter */
