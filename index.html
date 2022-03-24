@@ -307,16 +307,19 @@
   <form>
 
     <!-- Name input -->
-    <div class="mb-3">
-      <label class="form-label" for="name">Nombre</label>
-      <input class="form-control" id="name" type="text" placeholder="Nombre" />
+    <div class="row">
+      <div class="mb-3 col">
+        <label class="form-label" for="name">Nombre</label>
+        <input class="form-control" id="name" type="text" placeholder="Nombre" />
+      </div>
+  
+      <!-- Email address input -->
+      <div class="mb-3 col">
+        <label class="form-label" for="emailAddress">Email</label>
+        <input class="form-control" id="emailAddress" type="email" placeholder="Email" />
+      </div>
     </div>
-
-    <!-- Email address input -->
-    <div class="mb-3">
-      <label class="form-label" for="emailAddress">Email</label>
-      <input class="form-control" id="emailAddress" type="email" placeholder="Email" />
-    </div>
+   
 
     <!-- Producto input -->
     <div class="mb-3">
@@ -330,16 +333,19 @@
   </div>
 
     <!-- Destino input -->
-    <div class="mb-3">
-      <label class="form-label" for="salida">Salida</label>
-      <input class="form-control" id="salida" type="texto" placeholder="De donde sale" />
+    <div class="row">
+      <div class="col mb-3">
+        <label class="form-label" for="salida">Salida</label>
+        <input class="form-control" id="salida" type="texto" placeholder="De donde sale" />
+      </div>
+  
+      <!-- Destino input -->
+      <div class="col mb-3">
+        <label class="form-label" for="destino">Destino</label>
+        <input class="form-control" id="destino" type="texto" placeholder="Hacia donde va" />
+      </div>
     </div>
-
-    <!-- Destino input -->
-    <div class="mb-3">
-      <label class="form-label" for="destino">Destino</label>
-      <input class="form-control" id="destino" type="texto" placeholder="Hacia donde va" />
-    </div>
+    
 
     <!-- Message input -->
     <div class="mb-3">
