@@ -153,7 +153,7 @@ button {
 }
   
 .specialty__title{
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: .25rem;
     padding-left: 15px;
     padding-right: 15px;
@@ -369,7 +369,7 @@ button {
     }
 
     .specialty__category{
-        grid-template-columns: repeat(4, 250px);
+        grid-template-columns: repeat(4, 300px);
     }
 
     .card{
@@ -442,7 +442,7 @@ button {
 .parallax {
 background-image: url("../assets/paral.jpg");
 
-min-height: 400px; 
+min-height: 500px; 
 
 background-attachment: fixed;
 background-position: center;
