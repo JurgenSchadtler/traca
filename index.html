@@ -32,7 +32,7 @@
             <nav class="navbar sticky-top navbar-expand-lg navbar-default">
                 <div class="container-fluid hadow-sm">
                   <a class="navbar-brand" href="#">
-                    <img src="./assets/Logo Traca.svg" class="nav-logo" alt="" width="100" height="50">
+                    <img src="./assets/Logo Traca.svg" class="nav-logo" alt="" width="200" height="100">
                   </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <i class='bx bx-menu'></i>
@@ -195,8 +195,19 @@
               <div class="col"></div>
               <div class="col-lg-4 col-md-8 col-12">
                 <h2 class="title">¿Quienes somos?</h2>
-                <p class="about__text">Transportes Traca surge en el 2000 como una pequeña empresa familiar 
-                  con el objetivo de satisfacer las crecientes necesidades de transporte nacional dedicado. <br> <br>Buscamos ser reconocidos a nivel nacional como la mejor solución a sus necesidades en traslados de mercancías vía terrestre, trascendiendo por el excelente servicio , puntualidad y precios justos. <br>
+                <p class="about__text">Hace 65 años en el año de 1975 a la edad de 15 años,
+                  Don Roberto Catañeda Martínez originario de la ciudad de Aguascalientes 
+                  inició un sueño, con gran esfuerzo y adquiriendo su primer unidad modelo Dina
+                  210 comenzó su trabajo con viajes a Tijuana, Mexicali y San Luis Rio Colorado. <br>
+                  El trabajo constante y entregado de Don Roberto fue poco a poco dando frutos, 
+                  con dedicación y gran empeño Don Roberto fue arriesgando su capital y se hizo
+                  de mas unidades, con el paso de los años logró consolidar la empresa
+                  Transportes Castañeda. 
+                  <br><br>
+                  En la actualidad sus hijos continuan con el legado de trabajo, compromiso, 
+                  amistad y honestidad, valores que los distinguen y quen han llevado a 
+                  Transportes Castañeda a ser una de las empresas líderes en transportes de
+                  carga seca.<br>
                   <br> Nuestros principales destinos son: <br>
                   •Mexicali •Tijuana •Hermosillo •Monterrey •Culiacán •Puebla •Edo de México •Cuernavaca •Toluca •Querétaro •León •Celaya •Veracruz •Villahermosa •Mérida •Quintana Roo
                 </p>
@@ -253,7 +264,7 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
-                        Estamos preparados para atender diversas industrias de material pesado. <br> Contamos con una amplia cobertura, más de 20 puntos logísticos.
+                        Estamos preparados para atender diversas industrias de material pesado ya que contamos con una amplia cobertura, más de 20 puntos logísticos.
                       </div>
                       <img src="./assets/confianza.svg" class="accordion-img" alt="">
                     </div>
@@ -300,68 +311,70 @@
 
 
       <!-- Wrapper container -->
-<div class="container py-4" id="contactForm">
+      <div class="container py-4" id="contactForm">
 
-  <h2 class="title">Contactanos</h2>
+        <h2 class="title">Contactanos</h2>
 
-  <!-- Bootstrap 5 starter form -->
-  <form>
+        <!-- Bootstrap 5 starter form -->
+        <form>
 
-    <!-- Name input -->
-    <div class="row">
-      <div class="mb-3 col">
-        <label class="form-label" for="name">Nombre</label>
-        <input class="form-control" id="name" type="text" placeholder="Nombre" />
+          <!-- Name input -->
+          <div class="row">
+            <div class="mb-3 col">
+              <label class="form-label" for="name">Nombre</label>
+              <input class="form-control" id="name" type="text" placeholder="Nombre" />
+            </div>
+        
+            <!-- Email address input -->
+            <div class="mb-3 col">
+              <label class="form-label" for="emailAddress">Email</label>
+              <input class="form-control" id="emailAddress" type="email" placeholder="Email" />
+            </div>
+          </div>
+        
+
+          <!-- Producto input -->
+          <div class="mb-3">
+            <label class="form-label" for="servicio">Tipo de Servicio</label>
+            <select class="form-select" aria-label="Default select example">
+                <option value="Camioneta Caddy" selected>Camioneta Caddy</option>
+                <option value="Camioneta de 1 y 3.5 TON">Camioneta de 1 y 3.5 TON</option>
+                <option value="Plataforma de 40" y 48"">Plataforma de 40" y 48"</option>
+                <option value="Trailer caja seca de 40" y 48"">Trailer caja seca de 40" y 48"</option>
+              </select>
+        </div>
+
+          <!-- Destino input -->
+          <div class="row">
+            <div class="col mb-3">
+              <label class="form-label" for="salida">Salida</label>
+              <input class="form-control" id="salida" type="texto" placeholder="De donde sale" />
+            </div>
+        
+            <!-- Destino input -->
+            <div class="col mb-3">
+              <label class="form-label" for="destino">Destino</label>
+              <input class="form-control" id="destino" type="texto" placeholder="Hacia donde va" />
+            </div>
+          </div>
+          
+
+          <!-- Message input -->
+          <div class="mb-3">
+            <label class="form-label" for="message">Menasaje</label>
+            <textarea class="form-control" id="message" type="text" placeholder="Mensaje" style="height: 10rem;"></textarea>
+          </div>
+
+          <!-- Form submit button -->
+          <div class="d-grid">
+            <button class="btn btn-primary btn-lg" type="submit">Enviar</button>
+          </div>
+
+        </form>
+
       </div>
-  
-      <!-- Email address input -->
-      <div class="mb-3 col">
-        <label class="form-label" for="emailAddress">Email</label>
-        <input class="form-control" id="emailAddress" type="email" placeholder="Email" />
-      </div>
-    </div>
-   
 
-    <!-- Producto input -->
-    <div class="mb-3">
-      <label class="form-label" for="servicio">Tipo de Servicio</label>
-      <select class="form-select" aria-label="Default select example">
-          <option value="Camioneta Caddy" selected>Camioneta Caddy</option>
-          <option value="Camioneta de 1 y 3.5 TON">Camioneta de 1 y 3.5 TON</option>
-          <option value="Plataforma de 40" y 48"">Plataforma de 40" y 48"</option>
-          <option value="Trailer caja seca de 40" y 48"">Trailer caja seca de 40" y 48"</option>
-        </select>
-  </div>
 
-    <!-- Destino input -->
-    <div class="row">
-      <div class="col mb-3">
-        <label class="form-label" for="salida">Salida</label>
-        <input class="form-control" id="salida" type="texto" placeholder="De donde sale" />
-      </div>
-  
-      <!-- Destino input -->
-      <div class="col mb-3">
-        <label class="form-label" for="destino">Destino</label>
-        <input class="form-control" id="destino" type="texto" placeholder="Hacia donde va" />
-      </div>
-    </div>
-    
-
-    <!-- Message input -->
-    <div class="mb-3">
-      <label class="form-label" for="message">Menasaje</label>
-      <textarea class="form-control" id="message" type="text" placeholder="Mensaje" style="height: 10rem;"></textarea>
-    </div>
-
-    <!-- Form submit button -->
-    <div class="d-grid">
-      <button class="btn btn-primary btn-lg" type="submit">Enviar</button>
-    </div>
-
-  </form>
-
-</div>
 
       <!-- Footer -->
 <footer class="text-center text-lg-start bg-light text-muted">
@@ -377,13 +390,13 @@
 
     <!-- Right -->
     <div>
-      <a href="" class="me-4 text-reset">
+      <a href="https://www.facebook.com/TracaAgs/" class="me-4 text-reset">
         <i class='bx bxl-facebook'></i>
       </a>
       <a href="" class="me-4 text-reset">
         <i class='bx bxl-instagram' ></i>
       </a>
-      <a href="" class="me-4 text-reset">
+      <a href="https://www.linkedin.com/in/transportes-traca-625888221/" class="me-4 text-reset">
         <i class='bx bxl-linkedin' ></i>
       </a>
     </div>
