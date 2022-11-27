@@ -11,7 +11,7 @@ html {
 }
 
 body{
-    color: #005993;
+    color: #000000;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -81,7 +81,7 @@ button {
     padding: 7rem 0 2.5rem;
     /* background: linear-gradient(160deg, hsla(206,5%,24%,1)-4%, hsla(206,12%,12%,1)46%
     ); */
-    background-image: url(../assets/home-bg.jpg);
+    background-image: url(../assets/home.jpg);
       /* background-attachment: fixed; */
       background-position: center;
       background-repeat: no-repeat;
@@ -116,7 +116,7 @@ button {
 }
     
 .title{
-    color: #ca070f;
+    color: #ffaefb;
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -130,43 +130,10 @@ button {
     margin: 2rem auto;
     width: 67px;
     height: 2px;
-    background-color: #ca070f;
+    background-color: #ffaefb;
     
 }
 
-.specialty__category{
-    margin-top: 4rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    row-gap: 2.5rem;
-}
-  
-.specialty__img{
-    width: 70px;
-    margin-bottom: 1rem;
-    transition: .4s;
-}
-  
-.specialty__group{
-    text-align: center;
-}
-  
-.specialty__title{
-    font-size: 1.2rem;
-    margin-bottom: .25rem;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-  
-.specialty__group:hover .specialty__img{
-    transform: translateY(-.25rem);
-  
-}
-
-.units-featured{
-    margin-bottom: 50px;
-}
 
 /* Services */
 .services{
@@ -186,7 +153,7 @@ button {
 }
 
 .about__text{
-    color: #ca070f;
+    color: #000000;
     padding: 0 5% 0 5%;
     text-align: justify;
 }
@@ -200,7 +167,7 @@ button {
 }
 
 .about-number{
-    color: #ca070f;
+    color: #ffaefb;
 }
 
 
@@ -250,7 +217,7 @@ button {
 .Custom_Button{
     width: 100%;
     border-radius: 0%;
-    background-color: #eb1424;
+    background-color: #ffaefb;
     height: 4rem;
 }
 
@@ -261,25 +228,6 @@ button {
 
 .contact-row{
     margin-top: 5%;
-}
-
-.accordion-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 250px;
-}
-
-.certificados-title{
-    color: #fff;
-}
-
-.certificado-img{
-    width: 250px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
 }
 
 .empleado-lista{
@@ -296,16 +244,8 @@ button {
         margin-bottom: 3rem;
     }
 
-    .specialty__img{
-        width: 100px;
-    }
-
     .title::before{
         margin: 3rem auto;
-    }
-
-    .specialty__category{
-        grid-template-columns: repeat(2, 250px);
     }
 
     .card{
@@ -325,39 +265,6 @@ button {
         
     }
 
-    .certificado-img{
-        width: 250px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media screen and (min-width: 767px) {
-    .certificado-img{
-        width: 250px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media screen and (min-width: 920px) {
-    .certificado-img{
-        width: 250px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media screen and (min-width: 1040px){
-    .certificado-img{
-        width: 250px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
 
 
@@ -367,16 +274,8 @@ button {
         margin-bottom: 3rem;
     }
 
-    .specialty__img{
-        width: 150px;
-    }
-
     .title::before{
         margin: 3rem auto;
-    }
-
-    .specialty__category{
-        grid-template-columns: repeat(4, 300px);
     }
 
     .card{
@@ -396,19 +295,6 @@ button {
         
     }
 
-    .accordion-img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 350px;
-    }
-
-    .certificado-img{
-        width: 250px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
 
 /* Swiper */
@@ -463,12 +349,12 @@ button {
   .value {
     font-size: 2em;
     display: block;
-    color: #ca070f;
+    color: #ffaefb;
   }
 
   /* parallax */
 .parallax {
-background-image: url("../assets/paral.jpg");
+background-image: url("../assets/employees.jpg");
 
 min-height: 500px; 
 
@@ -497,14 +383,5 @@ background-size: cover;
     font-size: 2.5rem;
 }
 
-.accordion-body{
-    font-size: 1.7rem;
-    text-align: center;
-}
-
-.img-footer{
-    width: 50px;
-    height: 50px;
-}
 
 /*  */

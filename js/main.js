@@ -76,7 +76,10 @@ document.addEventListener('scroll', function () {
 });
 
 
-const container = document.getElementById("container-empleado")
+const container = document.getElementById("container-empleado");
+const cardCat = document.getElementById("card-body");
+const cardJoke = document.getElementById("payasadas");
+const cardDog = document.getElementById("dogs");
 
 fetch('https://randommer.io/api/Name?nameType=firstname&quantity=5', {
   headers: {
@@ -96,7 +99,6 @@ fetch('https://randommer.io/api/Name?nameType=firstname&quantity=5', {
     const iterator = data.values();
 
     for (const value of iterator) {
-      console.log(value);
       let li = document.createElement("p");
       li.classList.add("empleado-lista");
       let node = document.createTextNode(value);
@@ -107,15 +109,76 @@ fetch('https://randommer.io/api/Name?nameType=firstname&quantity=5', {
 
   });
 
+  fetch('https://catfact.ninja/fact', {
 
-/* function populate(dog_list){
-  const container = document.getElementById("container");
-  for (dog in dog_list) {
-    let li = document.createElement("li");
-    let node = document.createTextNode(dog);
-    li.appendChild(node);
-    container.appendChild(li);
+}).then(response => {
+  if (response.ok) {
+    return response.json();
+
+  } else {
+    throw new Error(response.statusText);
   }
-};
- */
+})
+  .then(data => {
+
+    const cat = data.fact;
+    
+    
+      let li = document.createElement("p");
+      let node = document.createTextNode(cat);
+      li.appendChild(node);
+      cardCat.appendChild(li);
+    
+
+
+  });
+
+  
+
+  fetch('https://official-joke-api.appspot.com/random_joke', {
+
+  }).then(response => {
+    if (response.ok) {
+      return response.json();
+  
+    } else {
+      throw new Error(response.statusText);
+    }
+  })
+    .then(data => {
+  
+      const joke = data.setup;
+      const punch = data.punchline;
+      
+        let li = document.createElement("p");
+        let pun = document.createElement("p");
+        let node = document.createTextNode(joke);
+        let punchline = document.createTextNode(punch);
+        li.appendChild(node);
+        pun.appendChild(punchline);
+
+        cardJoke.appendChild(li);
+        cardJoke.appendChild(pun);
+    });
+
+    fetch(' https://dog-api.kinduff.com/api/facts?number=1', {
+
+    }).then(response => {
+      if (response.ok) {
+        return response.json();
+    
+      } else {
+        throw new Error(response.statusText);
+      }
+    })
+      .then(data => {
+    
+        const dog = data.facts;
+       
+          let li = document.createElement("p");
+          let node = document.createTextNode(dog);
+          li.appendChild(node);
+          cardDog.appendChild(li);
+      });
+
 
